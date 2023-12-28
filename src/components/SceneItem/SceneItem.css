@@ -1,0 +1,28 @@
+.scene {
+  display: flex;
+  cursor: pointer;
+  padding: 8px;
+  margin-bottom: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  justify-content: space-between;
+  background-color: #fffffe;
+  color: #2e2f3e;
+  border: 1px solid #ccc;
+  opacity: 1;
+}
+
+.scene_dragging {
+  opacity: 0.5;
+}
+
+.scene-thumbnail {
+  align-self: center;
+  font-size: "2em";
+  color: "#fffffe";
+}
+
+.scene-icon {
+  font-size: 2em;
+  color: "#fffffe";
+}

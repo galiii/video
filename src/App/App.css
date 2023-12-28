@@ -1,0 +1,24 @@
+.App {
+  /* text-align: center;*/
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #16161a;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 0.5fr 2fr 1fr 1fr;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}

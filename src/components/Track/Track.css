@@ -1,0 +1,46 @@
+.track {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+  grid-column-start: 1;
+  grid-column-end: span col5-end;
+  grid-row-start: 6;
+  grid-row-end: span 6;
+  /*max-width: 890px;*/
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 15px;
+}
+
+.track-controls {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.track-content {
+  display: flex;
+  margin-top: 10px;
+  overflow-x: auto;
+}
+
+.track-scene {
+  max-width: 890px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 5px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.track-scene:hover {
+  background-color: #e0e0e0;
+}

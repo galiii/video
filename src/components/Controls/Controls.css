@@ -1,0 +1,14 @@
+.controls {
+  padding: 10px;
+  margin-bottom: 20px;
+  grid-column-start: 2;
+  grid-column-end: span col3-end;
+  grid-row-start: 4;
+  grid-row-end: span 2;
+  width: 200px;
+  display: flex;
+  justify-content: flex-end;
+  align-self: end;
+  position: absolute;
+  left: 31em;
+}

@@ -1,0 +1,10 @@
+.ruler {
+  display: flex;
+  margin-left: 10px;
+}
+
+.ruler-mark {
+  width: 60px;
+  text-align: center;
+  border-right: 1px solid #ddd;
+}
